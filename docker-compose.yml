@@ -1,0 +1,12 @@
+version: '0.1'
+
+services:
+
+  biblia-crista:
+    image: emersondantas/bibliacrista-site:latest
+    container_name: bibliacrista-site
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - API_URL=http://localhost:8080
