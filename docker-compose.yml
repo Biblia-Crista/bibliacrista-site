@@ -7,6 +7,4 @@ services:
     container_name: bibliacrista-site
     restart: always
     ports:
-      - 8080:80
-    environment:
-      - API_URL=http://localhost:8080
+      - 80:80
