@@ -9,6 +9,3 @@ FROM nginx:alpine
 VOLUME /var/cache/nginx
 COPY --from=angular app/dist/bibliacrista-site /usr/share/nginx/html
 COPY ./config/nginx.conf /etc/nginx/conf.d/default.conf
-
-#docker build -t biblia .
-#docker run -p 8081:80 biblia
