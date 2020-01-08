@@ -1,7 +1,6 @@
-version: '0.1'
+version: '3.5'
 
 services:
-
   biblia-crista:
     image: emersondantas/bibliacrista-site:latest
     container_name: bibliacrista-site
