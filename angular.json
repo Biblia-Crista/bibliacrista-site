@@ -24,10 +24,16 @@
               "src/assets"
             ],
             "styles": [
-              "./node_modules/@angular/material/prebuilt-themes/indigo-pink.css",
-              "src/styles.css"
+              "src/styles.css",
+              "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/jquery/dist/jquery.js",
+              "./node_modules/bootstrap/dist/js/bootstrap.js",
+              "./src/app/building-template/js/animatescroll.js",
+              "./src/app/building-template/js/scripts.js",
+              "./src/app/building-template/js/retina.min.js"
+              ]
           },
           "configurations": {
             "production": {
@@ -94,6 +100,7 @@
               "src/styles.css"
             ],
             "scripts": []
+
           }
         },
         "lint": {
