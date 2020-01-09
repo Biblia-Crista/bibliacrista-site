@@ -1,0 +1,21 @@
+/*-----------------------------------------------------------------------------------*/
+/*	PAYOFF
+/*-----------------------------------------------------------------------------------*/
+
+.payoff {
+  overflow: hidden;
+  padding: 230px 0px 150px 0px;
+  min-height: 600px;
+  background: url("../../assets/img/menino_orando.png");
+  background-position: center top;
+  background-repeat: repeat-x;
+  color: white;
+}
+
+.payoff h1 {
+  text-transform: uppercase;
+  font-weight: 300;
+  font-family: "Gotham-Light", sans-serif;
+  font-size: 2.8em;
+  color: #009eae !important;
+}

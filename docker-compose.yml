@@ -3,6 +3,7 @@ version: '2.1'
 services:
   bibliacrista-site:
     image: bibliacrista-site
+    container_name: bibliacrista-site
     build: .
     ports:
       - 80:80

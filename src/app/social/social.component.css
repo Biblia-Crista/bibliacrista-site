@@ -1,0 +1,30 @@
+/*-----------------------------------------------------------------------------------*/
+/*	SOCIAL
+/*-----------------------------------------------------------------------------------*/
+
+.social {
+  overflow: hidden;
+  padding: 80px 0px 150px 0px;
+  min-height: 350px;
+  /*background: url("../../assets/img/sea.jpg");*/
+  background-position: center top;
+  background-repeat: repeat-x;
+  background-color: #88ffff;
+  color: white;
+}
+
+.social h2 {
+  color: white;
+}
+
+.social a {
+  margin-left: 10px;
+  color: #fff;
+  font-size: 5em;
+  transition: all 0.3s;
+}
+
+.social a:hover {
+  text-decoration: none;
+  cursor: pointer;
+}

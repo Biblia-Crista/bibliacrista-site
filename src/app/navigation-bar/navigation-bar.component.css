@@ -1,0 +1,53 @@
+/*-----------------------------------------------------------------------------------*/
+/* NAVBAR
+/*-----------------------------------------------------------------------------------*/
+
+nav.navbar {
+  position: fixed;
+  top: -100%;
+  margin-bottom: 0px;
+  padding: 10px 0px 10px 0px;
+  width: 100%;
+  border-radius: 0px;
+  transition: all 0.3s;
+}
+
+.navbar-nav {
+  float: right;
+}
+
+nav.navbar.fixed-to-top {
+  top: 0px;
+}
+
+.navbar-default {
+  border: none;
+  border-bottom: 1px solid #eee;
+  background: #fff;
+  opacity: 0.95;
+  display: none;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: #aaa;
+  font-size: 1.2em;
+}
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #3a3a3a;
+  cursor: pointer;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.navbar-default .navbar-brand {
+  color: #333333;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 2em;
+  font-family: "Gotham-Bold", sans-serif;
+}

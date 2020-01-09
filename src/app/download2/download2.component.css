@@ -1,0 +1,53 @@
+/*-----------------------------------------------------------------------------------*/
+/*	GET-IT
+/*-----------------------------------------------------------------------------------*/
+
+.get-it {
+  padding: 100px 0px 160px 0px;
+  text-align: center;
+}
+
+.get-it button.app-store {
+  width: 152px;
+  height: 60px;
+  background: url(../../assets/img/google-play-badge.png) #ffffff no-repeat 0px 0px;
+  background-size: 152px;
+  color: white;
+}
+
+.get-it hr {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.get-it ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.get-it ul li {
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.get-it ul li:first-child {
+  margin-left: 0px;
+}
+
+.get-it ul li a {
+  color: #aaa;
+  font-size: 1.2em;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -ms-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  transition: all 300ms ease-in-out;
+}
+
+.get-it ul li a:hover {
+  color: #3a3a3a;
+  text-decoration: none;
+  cursor: pointer;
+}

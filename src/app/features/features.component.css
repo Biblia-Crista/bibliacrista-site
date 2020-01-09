@@ -1,0 +1,39 @@
+/*-----------------------------------------------------------------------------------*/
+/*	FEATURES
+/*-----------------------------------------------------------------------------------*/
+
+.features {
+  overflow: hidden;
+  padding: 150px 0px 150px 0px;
+  min-height: 400px;
+  color: black;
+}
+
+.features p {
+  font-weight: 400;
+}
+
+.features h2 {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 300;
+}
+
+.features .circle {
+  box-sizing: border-box;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 33px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid #ffffff;
+  border-radius: 100%;
+  text-align: center;
+}
+
+.features span.glyphicon,
+.features i {
+  margin-top: 3px;
+  color: #ffffff;
+  font-size: 5em;
+}

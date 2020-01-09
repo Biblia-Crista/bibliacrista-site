@@ -1,0 +1,65 @@
+/*-----------------------------------------------------------------------------------*/
+/* HEADER
+/*-----------------------------------------------------------------------------------*/
+
+header {
+  padding: 150px 0px 0px 0px;
+  height: 960px;
+  background: url("../../assets/img/oracao.png");
+  background-color: rgba(255, 255, 255, 1) !important;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-shadow: black;
+}
+
+header h1 {
+  text-transform: uppercase;
+  font-weight: 700;
+  font-weight: 300;
+  font-size: 100px;
+  font-family: "Gotham-Light", sans-serif;
+  text-shadow: black;
+}
+
+header p.lead {
+  font-size: 36px;
+}
+
+header .carousel-iphone {
+  margin-right: auto;
+  margin-left: auto;
+  width: 320px;
+  height: 672px;
+  background: url("../../assets/img/iphone-front.png") no-repeat;
+  background-size: 100%;
+}
+
+header .carousel {
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 95px 0px 0px 4px;
+  width: 282px;
+}
+
+header .carousel-indicators .active {
+  width: 15px;
+  height: 15px;
+  background: #444444;
+}
+
+header .carousel-indicators {
+  bottom: -63px;
+}
+
+header .carousel-indicators li {
+  display: inline-block;
+  margin: 1px;
+  width: 15px;
+  height: 15px;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  text-indent: -999px;
+  cursor: pointer;
+}

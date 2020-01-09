@@ -24,15 +24,17 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
+              "./src/assets/css/fonts.css",
+              "./src/assets/css/animate.min.css",
+              "./src/styles.css",
               "./node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
               "./node_modules/bootstrap/dist/js/bootstrap.js",
-              "./src/app/building-template/js/animatescroll.js",
-              "./src/app/building-template/js/scripts.js",
-              "./src/app/building-template/js/retina.min.js"
+              "./src/assets/js/animatescroll.js",
+              "./src/assets/js/scripts.js",
+              "./src/assets/js/retina.min.js"
               ]
           },
           "configurations": {
