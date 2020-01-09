@@ -45,15 +45,17 @@ nav.navbar.fixed-to-top {
 }
 
 .navbar-default .navbar-brand {
-  color: #333333;
+  color: #009faf;
   text-transform: uppercase;
   font-weight: 400;
   font-size: 2em;
-  font-family: "Gotham-Bold", sans-serif;
+  font-family: "Gotham-Medium", sans-serif;
 }
 
 img.logo{
   width: 50px;
+  float: left;
+  margin-right: 2vh;
 }
 
 /*-----------------------------------------------------------------------------------*/
@@ -64,5 +66,12 @@ img.logo{
   .navbar-nav {
     float: left;
     text-align: left;
+  }
+
+  img.logo{
+    width: 50px;
+    float: left;
+    margin-left: 2vh;
+    margin-right: 0;
   }
 }

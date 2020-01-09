@@ -8,12 +8,22 @@
   min-height: 200px;
 }
 
-.purchase button.app-store {
-  width: 152px;
-  height: 60px;
-  background: url(../../assets/img/google-play-badge.png) #ffffff no-repeat 0px 0px;
-  background-size: 152px;
+.purchase button.app-store{
+	width: 152px;
+	height: 52px;
+	background: url(../../assets/img/badge-appstore.png) #3a3a3a no-repeat 0px 5px;
+	color: white;
+}
+
+.purchase button.google-play {
+  width: 206px;
+  height: 52px;
+  background: url(../../assets/img/google-play-badge.png) #ffffff00 no-repeat 0px 0px;
+  background-position-x: 0px;
+  background-position-y: -15px;
+  background-size: 206px;
   color: white;
+  margin-left: 1vh;
 }
 
 /*-----------------------------------------------------------------------------------*/

@@ -1,22 +1,77 @@
 @charset "UTF-8";
 
+/* DONT USE TTF BECAUSE IT IS INCOMPATIBLE WITH MAC OS X
 @font-face {
-  font-family: "Gotham-Light";
-  src: url("../fonts/Gotham-Light.otf") format("opentype");
+  font-family: 'GothamLight';
+  src: url('../font/gotham/GothamLight.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Gotham-Bold";
-  src: url("../fonts/Gotham-Bold.otf") format("opentype");
+    font-family: 'GothamMedium';
+    src: url('../font/gotham/GothamMedium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBold';
+    src: url('../font/gotham/GothamBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+@font-face {
+    font-family: 'GothamBook';
+    src: url('../font/gotham/GothamBook.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GothamBlack';
+    src: url('../font/gotham/GothamBlack.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+*/
+
+
+/* Open Type Fonts - USE THIS */
+
+@font-face {
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham-Light.otf') format('opentype');
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-    font-family: "Gotham-Black";
-    src: url("../fonts/Gotham-Black.otf") format("opentype");
+    font-family: 'Gotham-Medium';
+    src: url('../fonts/Gotham-Medium.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/Gotham-Bold.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Book';
+    src: url('../fonts/Gotham-Book.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Gotham-Black';
+    src: url('../fonts/Gotham-Black.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
