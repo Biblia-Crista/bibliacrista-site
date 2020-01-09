@@ -51,3 +51,14 @@ nav.navbar.fixed-to-top {
   font-size: 2em;
   font-family: "Gotham-Bold", sans-serif;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    float: left;
+    text-align: left;
+  }
+}

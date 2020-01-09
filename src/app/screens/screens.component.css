@@ -85,3 +85,38 @@
   text-indent: -999px;
   cursor: pointer;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+  .detail .carousel h1,
+  .detail p {
+    text-align: center;
+  }
+
+  .detail p {
+    margin-bottom: 60px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .detail .app-screenshot {
+    width: 280px;
+  }
+
+  header .carousel,
+  .detail .app-screenshot img {
+    padding-top: 85px;
+    width: 245px;
+  }
+
+  .detail .app-screenshot img {
+    margin-top: -12px;
+    padding-top: 0px;
+  }
+
+}

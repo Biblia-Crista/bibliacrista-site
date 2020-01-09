@@ -15,3 +15,23 @@
   background-size: 152px;
   color: white;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 480px) {
+  .purchase {
+    padding-top: 50px;
+  }
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  /* Retina-specific stuff here */
+  .purchasebutton.app-store,
+  .get-it button.app-store {
+    background: url("../../assets/img/google-play-badge.png") #3a3a3a no-repeat 0px 5px;
+    background-size: 98%;
+    color: white;
+  }
+}

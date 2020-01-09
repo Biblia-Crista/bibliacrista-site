@@ -37,3 +37,21 @@
   color: #ffffff;
   font-size: 5em;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+  .features .col-md-4 {
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 480px) {
+
+  .features col-md-4 {
+    margin-bottom: 50px;
+  }
+}

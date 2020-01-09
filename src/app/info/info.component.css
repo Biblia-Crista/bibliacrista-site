@@ -19,3 +19,21 @@
   font-size: 2.8em;
   color: #009eae !important;
 }
+
+/*-----------------------------------------------------------------------------------*/
+/*	MEDIA QUERIES
+/*-----------------------------------------------------------------------------------*/
+
+@media (max-width: 992px) {
+
+  .payoff {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    min-height: 200px;
+  }
+
+  .payoff h1 {
+    font-size: 24px;
+  }
+
+}
