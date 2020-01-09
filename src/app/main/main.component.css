@@ -68,14 +68,6 @@ header .carousel-indicators li {
 /*	MEDIA QUERIES
 /*-----------------------------------------------------------------------------------*/
 
-@media (max-width: 768px) {
-  header {
-    padding-bottom: 50px;
-    min-height: 1000px;
-    height: 100%;
-  }
-}
-
 @media (max-width: 992px) {
   .carousel h1{
     text-align: center;
@@ -83,7 +75,21 @@ header .carousel-indicators li {
 
   header {
     background-position-y: 0px;
-    background-size: 200%;
+    background-position-x: -100px;
+    background-size: 300%;
+  }
+
+}
+
+@media (max-width: 768px) {
+  header {
+    padding-bottom: 50px;
+    min-height: 1000px;
+    height: 100%;
+  }
+
+  header p.lead {
+    font-size: 25px;
   }
 }
 

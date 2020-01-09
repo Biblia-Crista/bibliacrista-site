@@ -13,6 +13,7 @@ import { Download1Component } from './download1/download1.component';
 import { FeaturesComponent } from './features/features.component';
 import { Download2Component } from './download2/download2.component';
 import { SocialComponent } from './social/social.component';
+import { SiteComponent } from './site/site.component';
 
 @NgModule({
   declarations: [
@@ -25,6 +26,7 @@ import { SocialComponent } from './social/social.component';
     FeaturesComponent,
     Download2Component,
     SocialComponent,
+    SiteComponent,
   ],
   imports: [
     BrowserModule,
