@@ -67,16 +67,24 @@
 /*-----------------------------------------------------------------------------------*/
 
 @media (max-width: 480px) {
+
   .purchase {
     padding-top: 50px;
   }
+
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   /* Retina-specific stuff here */
-  .purchasebutton.app-store,
+  .get-it button.google-play {
+    background: url("../../assets/img/google-play-badge.png") #ffffff00 no-repeat 0px 5px;
+    background-size: 75%;
+    background-position-x: 25px;
+    background-position-y: -5px;
+  }
+
   .get-it button.app-store {
-    background: url("../../assets/img/google-play-badge.png") #ffffff no-repeat 0px 5px;
+    background: url("../../assets/img/badge-appstore@2x.png") #000000 no-repeat 0px 5px;
     background-size: 98%;
     color: white;
   }
