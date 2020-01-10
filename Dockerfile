@@ -3,7 +3,7 @@ WORKDIR /app
 COPY package.json /app
 RUN npm install  --silent
 COPY . .
-RUN npm  run build
+RUN ng build --prod
 
 FROM nginx:alpine
 VOLUME /var/cache/nginx
