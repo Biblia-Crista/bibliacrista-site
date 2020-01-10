@@ -24,9 +24,9 @@
     "@ng-bootstrap/ng-bootstrap": "^5.1.5",
     "angular-material": "^1.1.21",
     "angular-popper": "^2.0.1",
-    "bootstrap": "^3.0.0",
+    "bootstrap": "^3.3.7",
     "hammerjs": "^2.0.8",
-    "jquery": "^3.4.0",
+    "jquery": "^2.2.4",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
